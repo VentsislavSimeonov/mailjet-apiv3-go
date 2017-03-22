@@ -3,6 +3,7 @@ package mailjet
 import (
 	"encoding/json"
 	"net/http"
+	"sync"
 )
 
 /*
@@ -14,6 +15,7 @@ import (
 type Client struct {
 	apiBase string
 	client  *httpClient
+	mutex   *sync.Mutex
 }
 
 // Request bundles data needed to build the URL.

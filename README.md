@@ -16,7 +16,7 @@ This GO library is a client for version 3 of the [Mailjet API][doc].
 
 ## Getting Started
 
-Every code examples can be find on the [Mailjet Documentation][go_documentation]
+Every code examples can be found in the [Mailjet Documentation][go_documentation]
 
 (Please refer to the [Mailjet Documentation Repository][api_doc_repo] to contribute to the documentation examples)
 
